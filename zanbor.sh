@@ -13,6 +13,7 @@ fi
 
 wait 
 
+
 colorized_echo() {
     local color=$1
     local text=$2
