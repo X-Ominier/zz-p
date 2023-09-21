@@ -6,7 +6,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 
-$config = ['version' => '2.5', 'domain' => 'https://' . $_SERVER['HTTP_HOST'] . '/' . explode('/', explode('html/', $_SERVER['SCRIPT_FILENAME'])[1])[0], 'token' => '6487474443:AAF2jPCFQtJEhHoK3cd3zVZWyIzIKJH7rJ0', 'dev' => '131757826', 'database' => ['db_name' => 'ZanborPanel_GmbDkJOaN1', 'db_username' => 'eesh1kai', 'db_password' => 'GmbDkJOaN1']];
+$config = ['version' => '2.5', 'domain' => 'https://' . $_SERVER['HTTP_HOST'] . '/' . explode('/', explode('html/', $_SERVER['SCRIPT_FILENAME'])[1])[0], 'token' => '[*TOKEN*]', 'dev' => '[*DEV*]', 'database' => ['db_name' => '[*DB-NAME*]', 'db_username' => '[*DB-USER*]', 'db_password' => '[*DB-PASS*]']];
 
 $sql = new mysqli('localhost', $config['database']['db_username'], $config['database']['db_password'], $config['database']['db_name']);
 $sql->set_charset("utf8mb4");
